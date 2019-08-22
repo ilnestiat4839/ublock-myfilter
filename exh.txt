@@ -71,3 +71,5 @@ exhentai.org##.gl1t:has([href="https://exhentai.org/g/1464189/8defe0bd13/"])
 exhentai.org##.gl1t:has([href="https://exhentai.org/g/1467456/24f20d8f12/"])
 exhentai.org##.gl1t:has([href="https://exhentai.org/g/1468871/f39802ddab/"])
 exhentai.org##.gl1t:has([href="https://exhentai.org/g/1469454/d68bbc23db/"])
+exhentai.org##.gl1t:has([href="https://exhentai.org/g/1467760/bebe3e4381/"])
+
