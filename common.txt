@@ -1,3 +1,7 @@
+[Adblock Plus 2.0]
+! Title: myフィルター
+! Expires: 1 days
+
 ##a[href^="http://b.hatena.ne.jp/entry/http"]
 
 www.nicovideo.jp##.OwnerNicoliveBanner.is-fixed.Grid
