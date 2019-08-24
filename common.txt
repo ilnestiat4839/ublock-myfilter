@@ -16,6 +16,7 @@ www.nicovideo.jp##.LiveTopicsContainer-items
 !www.nicovideo.jp##.BottomContainer-side.GridCell
 www.nicovideo.jp##.premiumAdvice
 www.nicovideo.jp###videoShareLinks > .socialLinks > .socialLinkExtra > .expandTriger
+www.nicovideo.jp##.VideoMenuContainer-areaRight.col-1of12.GridCell
 
 www.pixiv.net##.ad-printservice.upload
 www.pixiv.net##.comic-hot-works
@@ -32,122 +33,79 @@ www.pixiv.net##._toolmenu
 !www.pixiv.net##.js-view-trackable._pawoo-for-visitor
 www.pixiv.net##.js-view-trackable
 
-! 2016/10/3 20:42:22 https://en.wikipedia.org/wiki/Deus_Ex_(series)
+
 en.wikipedia.org###centralNotice
 
-! 2016/10/5 2:37:51 http://uploaded.net/file/6zo7tyqf
 uploaded.net###pico-2
 
-! 2016/10/11 22:01:36 https://www.tumblr.com/dashboard
 www.tumblr.com###right_column
 
-! 2016/10/14 3:08:27 https://www.youtube.com/watch?v=9G5hGeuIHsU#t=11m
 ||i.ytimg.com/*/featured_channel.jpg$image
 
-! 2016/10/24 15:33:03 http://www.mediafire.com/file/chvh37domnk45ed/AF3+for+SGM_Albor+2.2.rar
 www.mediafire.com###download_visible_wrapper > .wrap > .cf.dl_options_innerblock > .center > .dlPromo3.promo-dl-box > .dlPromoContent.dlPromo3Content
 
-! 2016/10/29 15:45:34 http://uploaded.net/file/0bjtpx1l
 uploaded.net###taboola-404-container
 
-! 2016/11/5 16:31:16 https://www.amazon.co.jp/s/ref=nb_sb_noss?__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&url=search-alias%3Daps&field-keywords=usb+type+c+%E3%82%B1%E3%83%BC%E3%83%96%E3%83%AB+-%E3%82%A2%E3%83%80%E3%83%97%E3%82%BF&rh=i%3Aaps%2Ck%3Ausb+type+c+%E3%82%B1%E3%83%BC%E3%83%96%E3%83%AB+-%E3%82%A2%E3%83%80%E3%83%97%E3%82%BF
 www.amazon.co.jp###centerPlus
 www.amazon.co.jp###dp-ads-center-promo_feature_div
 
-! 2016/11/20 16:02:30 http://www.nicovideo.jp/watch/sm19772
 ||scdn.line-apps.com/n/line_it/img/button/*$image
 
-
-! 2016/12/4 18:33:03 http://ecchi.iwara.tv/videos
 ecchi.iwara.tv##.content > .extra-content-block
 ecchi.iwara.tv###block-block-10
 ecchi.iwara.tv##.views-column:has(a[href^="/images?"])
 
-
-! 2016/12/11 18:19:19 http://rule34hentai.net/
 rule34hentai.net###Our_Partnersmain
 rule34hentai.net###Our_Partnersleft
 rule34hentai.net###Check_This_Outmain
 rule34.xxx##a[href^="https://rule34.xxx/c.html"]
 
-
-! 2016/12/12 1:45:11 https://nijie.info/
 nijie.info###main-right-top
 nijie.info###banner
 nijie.info#@#[class*="tieup_"]
 
-
-! 2016/12/23 23:04:02 xrea.com
 @@||xrea.com$subdocument,first-party
 @@||xrea.com$stylesheet,first-party
 @@||xrea.com$image,first-party
 !xrea.com###p180-root > div
 xrea.com###vdbanner
+xrea.com##[src^="http://ad.xrea.com/ad_iframe.fcg"]
 ||value-domain.com/xrea_header.js$script
-
-
-! 2017/1/6 22:34:17 https://abema.tv/now-on-air/midnight-anime
-abema.tv##.styles__container___2MuvU
-
-! 2017/1/22 11:23:51 http://board.futakuro.com/sup/res/529.htm
-board.futakuro.com###ABox
-
-! 2017/3/25 23:08:23 xrea.com
 @@||raid.s500.xrea.com$domain=raid.s500.xrea.com
 
-! 2017/4/29 10:06:28 http://www.solidfiles.com/v/WwYMkAZVGeVKN/dl
+abema.tv##.styles__container___2MuvU
+
+board.futakuro.com###ABox
+
 www.solidfiles.com##.promoted-dl.box-content
 
-! 2017/7/24 20:19:02 ascii.jp
 @@||embed.nicovideo.jp^$script
 
-! 2017/8/6 12:59:24 tumblr.com
 @@||img.amiami.jp/images/*$image
 
-! 2017/9/12 18:23:12 https://www.tokyotosho.info/search.php?terms=%E3%83%AD%E3%83%83%E3%82%AF%E3%83%9E%E3%83%B3&type=2&searchName=true&searchComment=true&size_min=&size_max=&username=
 www.tokyotosho.info##[href^="https://www.privateinternetaccess.com/"]
 
-
-! 2018/1/17 2:25:36 https://www.youtube.com/watch?v=9jK-NcRmVcw
-www.youtube.com##.yt-uix-sessionlink.resumable-list.mix-playlist.spf-link.yt-pl-thumb-link.related-playlist
-
-! 2018/1/21 2:43:06 https://www.tumblr.com/tagged/%E3%81%91%E3%82%82%E3%81%AE%E3%83%95%E3%83%AC%E3%83%B3%E3%82%BA
-||78.media.tumblr.com/7c3c6b085ea40e656c28d38306b7e889/tumblr_p2uvkimrK81vz7x3oo1_500.jpg$image
-
-! 2018/4/5 22:07:37 https://www.youtube.com/watch?v=x_MMsutmRgo
+youtube.com##.yt-uix-sessionlink.resumable-list.mix-playlist.spf-link.yt-pl-thumb-link.related-playlist
 youtube.com##.ytp-button.ytp-next-button
+youtube.com##ytd-channel-renderer
 
-! 2018/4/7 0:27:59 http://www.nicovideo.jp/watch/sm22490127
-www.nicovideo.jp##.VideoMenuContainer-areaRight.col-1of12.GridCell
-
-! 2018/5/29 18:51:26 https://www.curseforge.com/minecraft/mc-mods/thermalexpansion/download
 www.curseforge.com##.align-items-center.flex-column.flex.client-download-cta
 
-! 2018/8/21 0:44:46 ci-en.jp
 @@||ssl.dlsite.com/assets/share/css/universal/universal.css$stylesheet,domain=ci-en.jp
 
-! 2018/8/22 0:47:42 https://gigafile.nu/
 gigafile.nu###gfrpg
 
-! 2018/9/3 18:25:16 https://www.youtube.com/results?search_query=refrain+AiM+-aimer
-www.youtube.com##ytd-channel-renderer
-
-! 2018/11/23 15:38:21 fc2.com
 @@||media.fc2.com/counter_img.php
 
-! 2018/12/3 11:56:58 https://kagikn.com/gtasa-better-kanji-gxt/
 kagikn.com##.ss-bottom.sbc-hide.bc-brand-color.ss-high-and-low-lc.ss-col-5.sns-share
 kagikn.com##.entry-footer.article-footer > .fbc-hide.bc-brand-color.sns-follow
 
-! 2018/12/5 11:27:33 https://www.gtaall.com/get-manual/375dd6b0cabec968319d206a412b7032d4d07c62/107214-new-camera-nikon-hq.html
 www.gtaall.com##.banners
 www.gtaall.com##.guest.stop-waiting
 
-! 2018/12/9 2:52:21 https://blogs.yahoo.co.jp/usualgamer/folder/1017216.html?m=l
 blogs.yahoo.co.jp##.prModule
 blogs.yahoo.co.jp###pcpres4
 
-! 2018/12/9 2:54:38 https://blogs.yahoo.co.jp/usualgamer/21099651.html
 ||s.yimg.jp/images/socialproducts/blog/promo/renewal/img/bn_detail3.png$image
 
 ! Stylishの泥板広告
@@ -164,21 +122,16 @@ www.google.com,www.google.co.jp##div[role="dialog"]:has(a[title="No thanks"])
 ||img.atwikiimg.com/common/_js/social_button.min.js$script
 atwiki.jp##div[style*="position:fixed; width:100%; height:100%;"]
 
-! 2019/2/9 https://privatter.net
 privatter.net##[class*="ghidden-print"]
 privatter.net##form > .media
 privatter.net##.well:has-text(このページを共有する)
 privatter.net##.alert-info
 
-! 2018/1/25 16:04:26 https://www.twitch.tv/
 twitch.tv##.recommended-channels
 twitch.tv##div[style^="order"]:has(a[href^="/honeynovember"])
 
-! 2019/3/18 http://armis.s57.xrea.com
-armis.s57.xrea.com##[src^="http://ad.xrea.com/ad_iframe.fcg"]
-
-! 2019/4/21 https://github.com
 github.com##.signup-prompt
 
-! 2019/5/25 https://web.smartnews.com
 web.smartnews.com###footer
+
+www.bing.com##li.adbDef
