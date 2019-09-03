@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: exhentaiのいらないやつを消すやつ
-! Expires: 1 days
+! Expires: 6 hours
 
 exhentai.org##.gl1t:has-text(和泉屋)
 exhentai.org##.gl1t:has-text(品川ミクズ)
@@ -72,4 +72,8 @@ exhentai.org##.gl1t:has([href="https://exhentai.org/g/1467456/24f20d8f12/"])
 exhentai.org##.gl1t:has([href="https://exhentai.org/g/1468871/f39802ddab/"])
 exhentai.org##.gl1t:has([href="https://exhentai.org/g/1469454/d68bbc23db/"])
 exhentai.org##.gl1t:has([href="https://exhentai.org/g/1467760/bebe3e4381/"])
+exhentai.org##.gl1t:has([href="https://exhentai.org/g/1476530/cd9d7dfb74/"])
+exhentai.org##.gl1t:has([href="https://exhentai.org/g/1475914/3b13345e21/"])
+exhentai.org##.gl1t:has([href="https://exhentai.org/g/1477038/364aeb332c/"])
+exhentai.org##.gl1t:has([href="https://exhentai.org/g/1477036/446d050602/"])
 
