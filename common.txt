@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: myフィルター
-! Expires: 1 days
+! Expires: 6 hours
 
 ##a[href^="http://b.hatena.ne.jp/entry/http"]
 
@@ -15,6 +15,7 @@ www.nicovideo.jp##.BottomContainer-card:nth-of-type(3) > .BottomContainer-cardMa
 www.nicovideo.jp##.LiveTopicsContainer-items
 !www.nicovideo.jp##.BottomContainer-side.GridCell
 www.nicovideo.jp##.premiumAdvice
+www.nicovideo.jp###premiumHeader
 www.nicovideo.jp###videoShareLinks > .socialLinks > .socialLinkExtra > .expandTriger
 www.nicovideo.jp##.VideoMenuContainer-areaRight.col-1of12.GridCell
 
