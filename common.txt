@@ -136,3 +136,7 @@ github.com##.signup-prompt
 web.smartnews.com###footer
 
 www.bing.com##li.adbDef
+
+chan.sankakucomplex.com##.blacklisted
+
+
