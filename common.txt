@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Title: myフィルター
+! Title: 共有myフィルター
 ! Expires: 6 hours
 
 ##a[href^="http://b.hatena.ne.jp/entry/http"]
