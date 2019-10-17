@@ -123,20 +123,26 @@ www.google.com,www.google.co.jp##div[role="dialog"]:has(a[title="No thanks"])
 ||img.atwikiimg.com/common/_js/social_button.min.js$script
 atwiki.jp##div[style*="position:fixed; width:100%; height:100%;"]
 
+! twitch
+twitch.tv##.recommended-channels
+twitch.tv##.featured-content-carousel
+twitch.tv##div[style^="order"]:has(a[href^="/honeynovember"])
+
+! sankaku complex
+chan.sankakucomplex.com##.blacklisted
+beta.sankakucomplex.com##[class^="jss"]:if(:xpath(./div/div/div/a[contains(@href,"/post/show/17949164")]))
+
+
 privatter.net##[class*="ghidden-print"]
 privatter.net##form > .media
 privatter.net##.well:has-text(このページを共有する)
 privatter.net##.alert-info
 
-twitch.tv##.recommended-channels
-twitch.tv##div[style^="order"]:has(a[href^="/honeynovember"])
+habu.onanie.org##a:has(span[class*="adsense"])
 
 github.com##.signup-prompt
 
 web.smartnews.com###footer
 
 www.bing.com##li.adbDef
-
-chan.sankakucomplex.com##.blacklisted
-
 
