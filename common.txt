@@ -33,6 +33,16 @@ www.pixiv.net##._toolmenu
 !www.pixiv.net##.js-view-trackable._recommend-follow-for-visitor
 !www.pixiv.net##.js-view-trackable._pawoo-for-visitor
 www.pixiv.net##.js-view-trackable
+www.pixiv.net##section:if(:xpath(./a[contains(@href,"/fanbox/creator/")]))
+
+www.pixiv.net##li>div:has([href="/artworks/74541694"])
+
+
+nijie.info###main-right-top
+nijie.info###banner
+nijie.info#@#[class*="tieup_"]
+
+nijie.info##div.illust_list:has(a[href="/view.php?id=337314"])
 
 
 en.wikipedia.org###centralNotice
@@ -56,14 +66,9 @@ ecchi.iwara.tv##.content > .extra-content-block
 ecchi.iwara.tv###block-block-10
 ecchi.iwara.tv##.views-column:has(a[href^="/images?"])
 
-rule34hentai.net###Our_Partnersmain
-rule34hentai.net###Our_Partnersleft
-rule34hentai.net###Check_This_Outmain
+rule34.paheal.net###Featured_Imageleft
 rule34.xxx##a[href^="https://rule34.xxx/c.html"]
-
-nijie.info###main-right-top
-nijie.info###banner
-nijie.info#@#[class*="tieup_"]
+rule34.xxx###s3440157
 
 @@||xrea.com$subdocument,first-party
 @@||xrea.com$stylesheet,first-party
