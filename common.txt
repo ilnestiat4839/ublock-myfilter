@@ -33,9 +33,10 @@ www.pixiv.net##._toolmenu
 !www.pixiv.net##.js-view-trackable._recommend-follow-for-visitor
 !www.pixiv.net##.js-view-trackable._pawoo-for-visitor
 www.pixiv.net##.js-view-trackable
-www.pixiv.net##section:if(:xpath(./a[contains(@href,"/fanbox/creator/")]))
+www.pixiv.net##section:if(:xpath(./div/div/a[contains(@href,"/fanbox/creator/")]))
 
-www.pixiv.net##li>div:has([href="/artworks/74541694"])
+www.pixiv.net##div:if(:xpath(./figure//a[@href="/artworks/74541694"]))
+www.pixiv.net##div:if(:xpath(./figure//a[@href="/artworks/77621462"]))
 
 
 nijie.info###main-right-top
@@ -43,6 +44,7 @@ nijie.info###banner
 nijie.info#@#[class*="tieup_"]
 
 nijie.info##div.illust_list:has(a[href="/view.php?id=337314"])
+nijie.info##div.illust_list:has(a[href="/members.php?id=1435548"])
 
 
 en.wikipedia.org###centralNotice
