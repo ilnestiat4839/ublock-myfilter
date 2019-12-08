@@ -71,6 +71,7 @@ ecchi.iwara.tv##.views-column:has(a[href^="/images?"])
 rule34.paheal.net###Featured_Imageleft
 rule34.xxx##a[href^="https://rule34.xxx/c.html"]
 rule34.xxx###s3440157
+rule34.xxx###s3493141
 
 @@||xrea.com$subdocument,first-party
 @@||xrea.com$stylesheet,first-party
