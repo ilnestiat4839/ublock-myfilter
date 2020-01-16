@@ -45,7 +45,7 @@ nijie.info#@#[class*="tieup_"]
 
 nijie.info##div.illust_list:has(a[href="/view.php?id=337314"])
 nijie.info##div.illust_list:has(a[href="/members.php?id=1435548"])
-
+nijie.info##div.illust_list:has(a[href="/members.php?id=1498135"])
 
 en.wikipedia.org###centralNotice
 
@@ -153,4 +153,6 @@ github.com##.signup-prompt
 web.smartnews.com###footer
 
 www.bing.com##li.adbDef
+
+kako.futakuro.com##[src="http://kako.futakuro.com/frame.html"]
 
