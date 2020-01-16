@@ -2,12 +2,18 @@
 ! Title: exhentaiのいらないやつを消すやつ
 ! Expires: 6 hours
 
+# 最低評価のものを非表示に
+exhentai.org##.gl1t:has([style^="background-position:-64px -21px"])
+
+# サークル・作者指定
 exhentai.org##.gl1t:has-text(和泉屋)
 exhentai.org##.gl1t:has-text(品川ミクズ)
 exhentai.org##.gl1t:has-text(fippenluck)
 exhentai.org##.gl1t:has-text(ブーブーキッド)
 exhentai.org##.gl1t:has-text(AERIAL RAVE)
 exhentai.org##.gl1t:has-text(笑顔で暴力)
+
+# URL指定
 exhentai.org##.gl1t:has([href="https://exhentai.org/g/1101565/36ddefe467/"])
 exhentai.org##.gl1t:has([href="https://exhentai.org/g/1097880/d544f10ee5/"])
 exhentai.org##.gl1t:has([href="https://exhentai.org/g/1095305/a766f57dae/"])
