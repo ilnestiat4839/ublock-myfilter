@@ -42,6 +42,7 @@ www.pixiv.net##div:if(:xpath(./figure//a[@href="/artworks/77621462"]))
 nijie.info###main-right-top
 nijie.info###banner
 nijie.info#@#[class*="tieup_"]
+nijie.info##div.illust_list:has([src="/pic/common_icon/illust/ng_image.png"])
 
 nijie.info##div.illust_list:has(a[href="/view.php?id=337314"])
 nijie.info##div.illust_list:has(a[href="/members.php?id=1435548"])
