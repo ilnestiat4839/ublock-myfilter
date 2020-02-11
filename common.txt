@@ -37,6 +37,7 @@ www.pixiv.net##section:if(:xpath(./div/div/a[contains(@href,"/fanbox/creator/")]
 
 www.pixiv.net##div:if(:xpath(./figure//a[@href="/artworks/74541694"]))
 www.pixiv.net##div:if(:xpath(./figure//a[@href="/artworks/77621462"]))
+www.pixiv.net##div:if(:xpath(./figure//a[@href="/artworks/79343272"]))
 
 
 nijie.info###main-right-top
