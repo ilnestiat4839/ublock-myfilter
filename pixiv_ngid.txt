@@ -1,0 +1,20 @@
+[Adblock Plus 2.0]
+! Title: PixivのNGIDフィルタ
+! Expires: 6 hours
+
+www.pixiv.net##li:if(:xpath(.//a[@href="/artworks/73145436"]))
+www.pixiv.net##li:if(:xpath(.//a[@href="/artworks/74541694"]))
+www.pixiv.net##li:if(:xpath(.//a[@href="/artworks/74563961"]))
+www.pixiv.net##li:if(:xpath(.//a[@href="/artworks/77621462"]))
+www.pixiv.net##li:if(:xpath(.//a[@href="/artworks/79343272"]))
+www.pixiv.net##li:if(:xpath(.//a[@href="/artworks/79839894"]))
+www.pixiv.net##li:if(:xpath(.//a[@href="/artworks/79841026"]))
+
+www.pixiv.net##div:if(:xpath(./figure//a[@href="/artworks/73145436"]))
+www.pixiv.net##div:if(:xpath(./figure//a[@href="/artworks/74541694"]))
+www.pixiv.net##div:if(:xpath(./figure//a[@href="/artworks/74563961"]))
+www.pixiv.net##div:if(:xpath(./figure//a[@href="/artworks/77621462"]))
+www.pixiv.net##div:if(:xpath(./figure//a[@href="/artworks/79343272"]))
+www.pixiv.net##div:if(:xpath(./figure//a[@href="/artworks/79839894"]))
+www.pixiv.net##div:if(:xpath(./figure//a[@href="/artworks/79841026"]))
+
