@@ -49,6 +49,8 @@ en.wikipedia.org###centralNotice
 
 uploaded.net###pico-2
 
+1fichier.com##.ui-front
+
 www.tumblr.com###right_column
 
 ||i.ytimg.com/*/featured_channel.jpg$image
