@@ -137,7 +137,14 @@ twitch.tv##.featured-content-carousel
 twitch.tv##div[style^="order"]:has(a[href^="/honeynovember"])
 
 ! sankaku complex
-!chan.sankakucomplex.com##.blacklisted
+chan.sankakucomplex.com##.blacklisted
+chan.sankakucomplex.com###p20299724
+chan.sankakucomplex.com###p20345464
+chan.sankakucomplex.com###p20357405
+chan.sankakucomplex.com###p20371736
+chan.sankakucomplex.com###p20502486
+chan.sankakucomplex.com###p20592534
+chan.sankakucomplex.com###p20128837
 beta.sankakucomplex.com##[class^="jss"]:if(:xpath(./div/div/div/a[contains(@href,"/post/show/17949164")]))
 
 
