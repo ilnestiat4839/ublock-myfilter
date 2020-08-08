@@ -137,6 +137,8 @@ twitch.tv##.featured-content-carousel
 twitch.tv##div[style^="order"]:has(a[href^="/honeynovember"])
 
 ! sankaku complex
+chan.sankakucomplex.com###has-mail-notice:has-text(Sankaku Plus)
+chan.sankakucomplex.com##a[href="https://get.sankaku.plus/"]
 chan.sankakucomplex.com##.blacklisted
 chan.sankakucomplex.com###p20299724
 chan.sankakucomplex.com###p20345464
