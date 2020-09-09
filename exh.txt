@@ -5,6 +5,11 @@
 ! 最低評価のものを非表示に
 exhentai.org##.gl1t:has([style^="background-position:-64px -21px"])
 
+! sampleとかいうゴミを排除
+exhentai.org##.gl1t:has-text(見本)
+exhentai.org##.gl1t:has-text(Sample)
+exhentai.org##.gl1t:has-text(sample)
+
 ! サークル・作者指定
 exhentai.org##.gl1t:has-text(和泉屋)
 exhentai.org##.gl1t:has-text(品川ミクズ)
