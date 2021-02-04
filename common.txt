@@ -33,7 +33,7 @@ www.pixiv.net##._toolmenu
 !www.pixiv.net##.js-view-trackable._recommend-follow-for-visitor
 !www.pixiv.net##.js-view-trackable._pawoo-for-visitor
 www.pixiv.net##.js-view-trackable
-www.pixiv.net##section:if(:xpath(./div/div/a[contains(@href,"/fanbox/creator/")]))
+!www.pixiv.net##section:if(:xpath(./div/div/a[contains(@href,"/fanbox/creator/")]))
 www.pixiv.net##div:if(:xpath(./a/span):has-text(プレミアム))
 
 
