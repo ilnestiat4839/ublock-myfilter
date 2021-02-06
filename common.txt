@@ -35,6 +35,9 @@ www.pixiv.net##._toolmenu
 www.pixiv.net##.js-view-trackable
 !www.pixiv.net##section:if(:xpath(./div/div/a[contains(@href,"/fanbox/creator/")]))
 www.pixiv.net##div:if(:xpath(./a/span):has-text(プレミアム))
+!クソホモdel
+www.pixiv.net##li:if(:xpath(.//a[contains(@href, "/artworks/")])):has-text(♂)
+www.pixiv.net##div:if(:xpath(./figure//a[contains(@href, "/artworks/")])):has-text(♂)
 
 
 nijie.info###main-right-top
