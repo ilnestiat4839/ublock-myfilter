@@ -174,3 +174,15 @@ img.2chan.net##div#ufm+div
 
 kako.futakuro.com##[src="http://kako.futakuro.com/frame.html"]
 
+! WarframeBuilderの邪魔な広告
+warframe-builder.com###overlay
+warframe-builder.com##div[id^=e-message]
+
+! 英wikiの他言語版表示ウザすぎ問題
+warframe.fandom.com##.notify.wds-message.wds-banner-notification
+
+! wikiwikiの邪魔なスクロールボタン削除
+wikiwiki.jp###scroll-up-button
+wikiwiki.jp###scroll-down-button
+wikiwiki.jp###hamburger-menu
+
