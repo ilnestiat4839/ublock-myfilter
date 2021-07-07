@@ -46,6 +46,9 @@ nijie.info#@#[class*="tieup_"]
 nijie.info##div.illust_list:has([src="/pic/common_icon/illust/ng_image.png"])
 nijie.info##._ad
 
+!携帯用NG非表示
+sp.nijie.info##div.illust-layout:has(img[src*="/pic/common_icon/illust/ng_image.png"])
+
 !nijie用NGID(一切表示すらしたくないやつ)
 nijie.info##div.illust_list:has(a[href="/view.php?id=337314"])
 nijie.info##div.illust_list:has(a[href="/members.php?id=1435548"])
