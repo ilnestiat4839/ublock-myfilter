@@ -191,5 +191,5 @@ wikiwiki.jp###hamburger-menu
 
 ! 2021-08-06 https://welovemanga.net
 welovemanga.net###id-custom_banner
-welovemanga.net##div[style*="transition: left 0.5s ease-in-out 1s"]
+welovemanga.net##div[style*="position: fixed"]
 
