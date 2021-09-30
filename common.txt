@@ -73,6 +73,8 @@ uploaded.net###taboola-404-container
 
 www.amazon.co.jp###centerPlus
 www.amazon.co.jp###dp-ads-center-promo_feature_div
+www.amazon.co.jp##div.s-widget.s-flex-full-width.s-result-item.a-spacing-none.a-section:has-text(スポンサー)
+
 
 ||scdn.line-apps.com/n/line_it/img/button/*$image
 
@@ -112,6 +114,9 @@ youtube.com##ytd-channel-renderer
 
 www.curseforge.com##.align-items-center.flex-column.flex.client-download-cta
 
+! 2020-12-16 https://www.dlsite.com
+www.dlsite.com##[href^="https://www.dlsite.com/maniax/fsr/=/work_category/doujin/genre/048/"]
+www.dlsite.com##[href^="https://www.dlsite.com/maniax/fsr/=/work_category/doujin/genre/303/"]
 @@||ssl.dlsite.com/assets/share/css/universal/universal.css$stylesheet,domain=ci-en.jp
 
 gigafile.nu###gfrpg
@@ -142,6 +147,10 @@ www.google.com,www.google.co.jp##div[role="dialog"]:has(a[title="No thanks"])
 ||img.atwikiimg.com/common/_js/moveads.min.js$script
 ||img.atwikiimg.com/common/_js/social_button.min.js$script
 atwiki.jp##div[style*="position:fixed; width:100%; height:100%;"]
+w.atwiki.jp##div.atwiki-header-submenu
+w.atwiki.jp##.atwiki-tanuki-recommend
+w.atwiki.jp##.social-button
+
 
 ! twitch
 twitch.tv##.recommended-channels
@@ -192,7 +201,13 @@ wikiwiki.jp###scroll-up-button
 wikiwiki.jp###scroll-down-button
 wikiwiki.jp###hamburger-menu
 
+modworkshop.net##div.mx-auto.mod:has(a[href="/mod/27064"])
+
 ! 2021-08-06 https://welovemanga.net
 welovemanga.net###id-custom_banner
 welovemanga.net##div[style*="position: fixed"]
+welovemanga.net###commentbox
+
+! 2021-08-27 http://enbdev.com
+enbdev.com##.main_adbalert
 
