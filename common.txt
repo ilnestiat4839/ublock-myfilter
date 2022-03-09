@@ -40,6 +40,8 @@ www.pixiv.net##li:if(:xpath(.//a[contains(@href, "/artworks/")])):has-text(♂)
 www.pixiv.net##div:if(:xpath(./figure//a[contains(@href, "/artworks/")])):has-text(♂)
 !公式NGを非表示
 www.pixiv.net##div:if(:xpath(./figure//img[contains(@class,'lazyloaded')]))
+! NGタグとかで非表示になってるやつを消す
+www.pixiv.net##li:has(svg[style="width: 48px; height: 48px;"])
 
 
 
@@ -210,4 +212,19 @@ welovemanga.net###commentbox
 
 ! 2021-08-27 http://enbdev.com
 enbdev.com##.main_adbalert
+
+! 2021-10-10 https://frkn64modding.com
+frkn64modding.com##.active.chp_ads_blocker-overlay
+frkn64modding.com##.chp_ads_blocker_detector
+
+! 2021-12-26 https://25.gigafile.nu
+25.gigafile.nu###hololive
+25.gigafile.nu###wrap_banner_billboard
+
+! 2022-02-16 https://cyberpunk2077.2game.info
+2game.info##dd:if(:xpath(./p[@class='sponsored-start']))
+
+! 2022-02-25 https://kamigame.jp
+kamigame.jp###overlay_ad_pc
+kamigame.jp##.pre-registration-widget
 
