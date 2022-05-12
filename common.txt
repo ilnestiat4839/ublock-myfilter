@@ -41,7 +41,8 @@ www.pixiv.net##div:if(:xpath(./figure//a[contains(@href, "/artworks/")])):has-te
 !公式NGを非表示
 www.pixiv.net##div:if(:xpath(./figure//img[contains(@class,'lazyloaded')]))
 ! NGタグとかで非表示になってるやつを消す
-www.pixiv.net##li:has(svg[style="width: 48px; height: 48px;"])
+! 末尾の :not(:has(circle)) はうごイラ巻き込み対策の暫定処置
+www.pixiv.net##li:has(svg[style="width: 48px; height: 48px;"]):not(:has(circle))
 
 
 
