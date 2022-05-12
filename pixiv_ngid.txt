@@ -3,6 +3,8 @@
 ! Expires: 6 hours
 
 www.pixiv.net##li:if(:xpath(.//a[@href="/artworks/73081518"]))
+www.pixiv.net##li:if(:xpath(.//a[@href="/artworks/73138847"]))
+www.pixiv.net##li:if(:xpath(.//a[@href="/artworks/73141399"]))
 www.pixiv.net##li:if(:xpath(.//a[@href="/artworks/73145436"]))
 www.pixiv.net##li:if(:xpath(.//a[@href="/artworks/73156081"]))
 www.pixiv.net##li:if(:xpath(.//a[@href="/artworks/73190808"]))
@@ -109,6 +111,8 @@ www.pixiv.net##li:if(:xpath(.//a[@href="/artworks/98211689"]))
 www.pixiv.net##li:if(:xpath(.//a[@href="/artworks/98213340"]))
 
 www.pixiv.net##div:if(:xpath(./figure//a[@href="/artworks/73081518"]))
+www.pixiv.net##div:if(:xpath(./figure//a[@href="/artworks/73138847"]))
+www.pixiv.net##div:if(:xpath(./figure//a[@href="/artworks/73141399"]))
 www.pixiv.net##div:if(:xpath(./figure//a[@href="/artworks/73145436"]))
 www.pixiv.net##div:if(:xpath(./figure//a[@href="/artworks/73156081"]))
 www.pixiv.net##div:if(:xpath(./figure//a[@href="/artworks/73190808"]))
