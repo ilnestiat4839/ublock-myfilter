@@ -48,9 +48,12 @@ www.pixiv.net##li:has(svg[style="width: 48px; height: 48px;"]):not(:has(circle))
 
 nijie.info###main-right-top
 nijie.info###banner
-nijie.info#@#[class*="tieup_"]
-nijie.info##div.illust_list:has([src="/pic/common_icon/illust/ng_image.png"])
 nijie.info##._ad
+! NGイラスト
+nijie.info##div.illust_list:has([src="/pic/common_icon/illust/ng_image.png"])
+! オススメ広告は残す
+nijie.info#@#.left_column
+nijie.info#@#[class^="tieup_"]
 
 !携帯用NG非表示
 sp.nijie.info##div.illust-layout:has(img[src*="/pic/common_icon/illust/ng_image.png"])
