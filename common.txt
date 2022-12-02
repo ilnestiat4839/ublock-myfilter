@@ -63,6 +63,11 @@ nijie.info##div.illust_list:has(a[href="/view.php?id=337314"])
 nijie.info##div.illust_list:has(a[href="/members.php?id=1435548"])
 nijie.info##div.illust_list:has(a[href="/members.php?id=1498135"])
 
+
+! mayの下の方の広告の枠が消えずにアホほど空いてる対策
+may.2chan.net##div:if(:xpath(./iframe[contains(@src, "dec.2chan.net")]))
+
+
 en.wikipedia.org###centralNotice
 
 uploaded.net###pico-2
