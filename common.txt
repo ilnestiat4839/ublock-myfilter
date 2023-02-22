@@ -237,3 +237,6 @@ frkn64modding.com##.chp_ads_blocker_detector
 kamigame.jp###overlay_ad_pc
 kamigame.jp##.pre-registration-widget
 
+! nexusのプレミアム誘導クソ邪魔バナー削除
+www.nexusmods.com##div:if(:xpath(./a[contains(@href, "premium")]))
+
