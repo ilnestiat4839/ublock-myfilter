@@ -168,6 +168,9 @@ twitch.tv##.recommended-channels
 twitch.tv##.featured-content-carousel
 twitch.tv##.front-page-carousel
 twitch.tv##div[style^="order"]:has(a[href^="/honeynovember"])
+twitch.tv##.chat-signup-gate-overlay
+twitch.tv##.tw-transition:if(:xpath(.//a[contains(@href, "elna_img")]))
+
 
 ! sankaku complex
 chan.sankakucomplex.com###has-mail-notice:has-text(Sankaku Plus)
@@ -197,6 +200,7 @@ web.smartnews.com###footer
 www.bing.com##li.adbDef
 
 img.2chan.net##div#ufm+div
+2chan.net##.tue2
 
 kako.futakuro.com##[src="http://kako.futakuro.com/frame.html"]
 
