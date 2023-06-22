@@ -35,6 +35,7 @@ www.pixiv.net##._toolmenu
 www.pixiv.net##.js-view-trackable
 !www.pixiv.net##section:if(:xpath(./div/div/a[contains(@href,"/fanbox/creator/")]))
 www.pixiv.net##div:if(:xpath(./a/span):has-text(プレミアム))
+www.pixiv.net##div:if(:xpath(./section//area[contains(@href, "premium")]))
 !クソホモdel
 www.pixiv.net##li:if(:xpath(.//a[contains(@href, "/artworks/")])):has-text(♂)
 www.pixiv.net##div:if(:xpath(./figure//a[contains(@href, "/artworks/")])):has-text(♂)
@@ -162,6 +163,11 @@ w.atwiki.jp##div.atwiki-header-submenu
 w.atwiki.jp##.atwiki-tanuki-recommend
 w.atwiki.jp##.social-button
 
+! GTA5wikiの広告
+w.atwiki.jp##:xpath(//a[contains(text(), 'U-NEXT')])
+w.atwiki.jp##:xpath(//a[contains(@href, 'amzn') or contains(@href, 'amazon')])
+w.atwiki.jp##:xpath(//a[contains(@href, 'afl.rakuten')])
+w.atwiki.jp##.plugin_include:if(:xpath(a[contains(@href, 'amzn') or contains(@href, 'amazon')]))
 
 ! twitch
 twitch.tv##.recommended-channels
