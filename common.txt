@@ -35,11 +35,11 @@ www.pixiv.net##._toolmenu
 www.pixiv.net##.js-view-trackable
 !www.pixiv.net##section:if(:xpath(./div/div/a[contains(@href,"/fanbox/creator/")]))
 www.pixiv.net##div:if(:xpath(./a/span):has-text(プレミアム))
-www.pixiv.net##div:if(:xpath(./section//area[contains(@href, "premium")]))
-!クソホモdel
+www.pixiv.net##div:if(:xpath(./section//a[contains(@href, "premium")]))
+! クソホモdel
 www.pixiv.net##li:if(:xpath(.//a[contains(@href, "/artworks/")])):has-text(♂)
 www.pixiv.net##div:if(:xpath(./figure//a[contains(@href, "/artworks/")])):has-text(♂)
-!公式NGを非表示
+! 公式NGを非表示
 www.pixiv.net##div:if(:xpath(./figure//img[contains(@class,'lazyloaded')]))
 ! NGタグとかで非表示になってるやつを消す
 ! 末尾の :not(:has(circle)) はうごイラ巻き込み対策の暫定処置
