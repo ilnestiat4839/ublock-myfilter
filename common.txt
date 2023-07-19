@@ -55,6 +55,8 @@ nijie.info##div.illust_list:has([src="/pic/common_icon/illust/ng_image.png"])
 ! オススメ広告は残す
 nijie.info#@#.left_column
 nijie.info#@#[class^="tieup_"]
+! 何故か↑があっても非表示になったりしたから個別で
+nijie.info#@#.tieup_rand_block
 
 !携帯用NG非表示
 sp.nijie.info##div.illust-layout:has(img[src*="/pic/common_icon/illust/ng_image.png"])
@@ -162,6 +164,8 @@ atwiki.jp##div[style*="position:fixed; width:100%; height:100%;"]
 w.atwiki.jp##div.atwiki-header-submenu
 w.atwiki.jp##.atwiki-tanuki-recommend
 w.atwiki.jp##.social-button
+w.atwiki.jp###body_footer
+w.atwiki.jp###ads
 
 ! GTA5wikiの広告
 w.atwiki.jp##:xpath(//a[contains(text(), 'U-NEXT')])
@@ -221,6 +225,8 @@ warframe.fandom.com##.notify.wds-message.wds-banner-notification
 wikiwiki.jp###scroll-up-button
 wikiwiki.jp###scroll-down-button
 wikiwiki.jp###hamburger-menu
+! カウンタが表示されなくなる対策
+@@||counter.wikiwiki.jp^
 
 modworkshop.net##div.mx-auto.mod:has(a[href="/mod/27064"])
 
