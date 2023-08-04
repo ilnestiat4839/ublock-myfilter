@@ -256,3 +256,9 @@ kamigame.jp##.pre-registration-widget
 ! nexusのプレミアム誘導クソ邪魔バナー削除
 www.nexusmods.com##div:if(:xpath(./a[contains(@href, "premium")]))
 
+! 2023-07-01 https://www.youtube.com
+www.youtube.com##ytd-reel-shelf-renderer.ytd-item-section-renderer.style-scope
+
+! 尼のシェアボタン (URL短縮に使う)
+amazon.co.jp#@#.ssf-share-trigger
+
