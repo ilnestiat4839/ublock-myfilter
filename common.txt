@@ -36,6 +36,7 @@ www.pixiv.net##.js-view-trackable
 !www.pixiv.net##section:if(:xpath(./div/div/a[contains(@href,"/fanbox/creator/")]))
 www.pixiv.net##div:if(:xpath(./a/span):has-text(プレミアム))
 www.pixiv.net##div:if(:xpath(./section//a[contains(@href, "premium")]))
+www.pixiv.net##div:if(:xpath(./section//area[contains(@href, "premium")]))
 ! クソホモdel
 www.pixiv.net##li:if(:xpath(.//a[contains(@href, "/artworks/")])):has-text(♂)
 www.pixiv.net##div:if(:xpath(./figure//a[contains(@href, "/artworks/")])):has-text(♂)
