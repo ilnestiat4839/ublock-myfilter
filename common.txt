@@ -266,3 +266,7 @@ nicomanga.com##[href="https://nicoscan.com/"]
 ! 尼のシェアボタンを許可 (URL短縮に使う)
 amazon.co.jp#@#.ssf-share-trigger
 
+! 2024/12/24 https://nicomanga.com
+nicomanga.com##.ad-container
+nicomanga.com##div:has(> iframe)
+nicomanga.com###welcome-bar
