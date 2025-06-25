@@ -268,5 +268,8 @@ amazon.co.jp#@#.ssf-share-trigger
 
 ! 2024/12/24 https://nicomanga.com
 nicomanga.com##.ad-container
+nicomanga.com##.ad-banner
 nicomanga.com##div:has(> iframe)
 nicomanga.com###welcome-bar
+nicomanga.com##.fa-video.fas
+nicomanga.com###commentbox
