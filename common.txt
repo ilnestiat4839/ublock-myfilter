@@ -181,7 +181,7 @@ twitch.tv##.front-page-carousel
 twitch.tv##div[style^="order"]:has(a[href^="/honeynovember"])
 twitch.tv##.chat-signup-gate-overlay
 twitch.tv##.tw-transition:if(:xpath(.//a[contains(@href, "elna_img")]))
-
+twitch.tv##.player-overlay-background:has-text(収益)
 
 ! sankaku complex
 chan.sankakucomplex.com###has-mail-notice:has-text(Sankaku Plus)
@@ -256,16 +256,19 @@ kamigame.jp##.pre-registration-widget
 
 ! nexusのプレミアム誘導クソ邪魔バナー削除
 www.nexusmods.com##div:if(:xpath(./a[contains(@href, "premium")]))
+www.nexusmods.com###nonPremiumBanner
 
 ! 2023-07-01 https://www.youtube.com
 www.youtube.com##ytd-reel-shelf-renderer.ytd-item-section-renderer.style-scope
 
-! 2024-01-20 https://nicomanga.com
-nicomanga.com##[href="https://nicoscan.com/"]
+! 2024-04-28 https://vault76.info
+@@||vault76.info/archives/popular_articles.json$xhr,1p
 
 ! 尼のシェアボタンを許可 (URL短縮に使う)
 amazon.co.jp#@#.ssf-share-trigger
 
+! 2024-01-20 https://nicomanga.com
+nicomanga.com##[href="https://nicoscan.com/"]
 ! 2024/12/24 https://nicomanga.com
 nicomanga.com##.ad-container
 nicomanga.com##.ad-banner
@@ -273,3 +276,5 @@ nicomanga.com##div:has(> iframe)
 nicomanga.com###welcome-bar
 nicomanga.com##.fa-video.fas
 nicomanga.com###commentbox
+! 2025/09/17 https://nicomanga.com
+nicomanga.com##div:has(> a[href="https://nicomanga.com/remove-all-ads/"])
